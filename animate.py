@@ -21,8 +21,8 @@ num_frames = 60
 def rotating_3d_helix():
     t = np.linspace(0, 8 * np.pi, 200)
     x = np.cos(t)
-    y = np.sin(t)
-    z = np.linspace(-2, 2, 200)
+    y = np.linspace(-2, 2, 200)
+    z = np.sin(t)
 
     frames = []
     for i in range(num_frames):
